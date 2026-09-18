@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db_name = 'fashion_store';
-$username = 'root'; // Adjust to your MySQL username
-$password = '';     // Adjust to your MySQL password
+$username = 'root'; 
+$password = '';     
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db_name;charset=utf8", $username, $password);
